@@ -17,4 +17,4 @@ mod "netdev_stdlib_eos",
 
 mod "eos_config",
   :git => "git://github.com/jerearista/puppet-eos_config-demo.git",
-  :ref => 'breakout'
+  :ref => 'master'
