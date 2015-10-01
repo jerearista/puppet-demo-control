@@ -8,12 +8,12 @@ mod "puppetlabs/inifile"
 
 # Modules from Github using various references
 mod "eos",
-  :git => "git://github.com/arista-eosplus/puppet-eos.git",
-  :ref => 'v1.2.0'
+  :git => "git://github.com/jerearista/puppet-eos.git",
+  :ref => 'feature-confine'
 
 mod "netdev_stdlib_eos",
-  :git => "git://github.com/arista-eosplus/puppet-netdev.git",
-  :ref => 'v1.0.0'
+  :git => "git://github.com/jerearista/puppet-netdev.git",
+  :ref => 'feature-confine'
 
 mod "eos_config",
   :git => "git://github.com/jerearista/puppet-eos_config-demo.git",
