@@ -9,12 +9,16 @@ mod "puppetlabs/inifile"
 # Modules from Github using various references
 mod "eos",
   :git => "git://github.com/jerearista/puppet-eos.git",
-  :ref => 'feature-confine'
+  :ref => 'feature-confine-rbeapi'
 
 mod "netdev_stdlib_eos",
   :git => "git://github.com/jerearista/puppet-netdev.git",
-  :ref => 'feature-confine'
+  :ref => 'feature-confine-rbeapi'
 
 mod "eos_config",
   :git => "git://github.com/jerearista/puppet-eos_config-demo.git",
-  :ref => 'function-get_loopback'
+  :ref => 'feature-package-rbeapi'
+
+mod "puppetagent_gem",
+  :git => 'https://github.com/arista-eosplus/aristanetworks-puppetagent_gem.git',
+  :ref => 'master'
